@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>API DATPAIS</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">API de datos de países</h1>
+        <form>
+            <label for="country" class="label">Introduce el nombre de un país:</label>
+            <input type="text" id="country" name="country" class="input" placeholder="Ejemplo: Argentina">
+            <button type="button" class="button" onclick="getCountryData()">Obtener datos</button>
+        </form>
+        <div id="country-data" class="country-data"></div>
+        <div id="map" class="map"></div>
+    </div>
+    <footer>© Desarrollador - SantiCattaneoDev - 2023</footer>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT-iffciGbLAWaIH7lyZl4qWIohfjJygM"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
+
