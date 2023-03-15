@@ -97,3 +97,33 @@ p {
     font-size: 35px;
     margin-right: 5px;
 }
+
+/* Hacer que el contenido sea responsive en pantallas más pequeñas */
+@media screen and (max-width: 600px) {
+    /* Establecer anchura máxima para el contenedor en pantallas más pequeñas */
+    .container {
+      max-width: 100%;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    /* Establecer anchura máxima para el input en pantallas más pequeñas */
+    .input {
+      max-width: none;
+    }
+    
+    /* Establecer anchura máxima para el botón en pantallas más pequeñas */
+    .button {
+      max-width: none;
+    }
+    
+    /* Hacer que el mapa sea responsive en pantallas más pequeñas */
+    .map {
+      height: 200px;
+    }
+    
+    /* Hacer que los enlaces del pie de página sean responsive en pantallas más pequeñas */
+    footer a {
+      font-size: 0.7em;
+    }
+  }
